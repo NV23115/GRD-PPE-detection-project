@@ -27,7 +27,7 @@ This project uses a Raspberry Pi to capture images and upload them to Amazon S3.
 # 🏗 Architecture Diagram
 
 ```
-Raspberry Pi
+Python openCV script
      ↓
 Amazon S3 (Images Bucket)
      ↓ (Event Trigger)
