@@ -78,7 +78,6 @@ Example log entry:
 Timestamp: 2026-02-19T14:32:10Z
 Image: site_camera_01_1234.jpg
 Violation: Missing helmet
-Confidence: 98.4%
 ---------------------------------------
 ```
 
@@ -93,7 +92,7 @@ The `cleanup` folder contains a local script to remove old objects from S3 bucke
 Example usage:
 
 ```bash
-python delete_old_s3_objects.py --bucket images-bucket --days 7
+python delete_old_s3_objects.py --bucket images-bucket --MAX_IMAGES 50
 ```
 
 This helps manage storage and maintain cost efficiency.
@@ -115,7 +114,6 @@ This helps manage storage and maintain cost efficiency.
 
 - Event-driven architecture for scalability
 - Fully serverless implementation
-- Built-in Rekognition PPE detection (no custom ML training required)
 - Lightweight S3-based logging for low-frequency violations
 - Modular Lambda structure for maintainability
 - Separation between edge device logic and cloud processing
@@ -127,7 +125,6 @@ This helps manage storage and maintain cost efficiency.
 Future improvements may include:
 
 - Replacing text-based logging with DynamoDB
-- Adding CloudWatch structured logging
 - Implementing Infrastructure as Code (AWS SAM / Terraform)
 - Adding CI/CD pipeline for automated Lambda deployment
 - Adding lifecycle policies to S3 buckets
