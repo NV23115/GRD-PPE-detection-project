@@ -154,7 +154,7 @@ MIT License
 
 ---
 
-# 👤 Author
+# 👤 Authors
 
 - **NV23155 - Mustafa Zahoor** – Role: *[Your role here]*  
 - **NV23076 - Saud Thani** – Role: *[Your role here]*  
