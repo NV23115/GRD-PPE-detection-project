@@ -78,12 +78,7 @@ Example log entry:
 Timestamp: 2026-02-19T14:32:10Z
 Image: site_camera_01_1234.jpg
 Violation: Missing helmet
----------------------------------------
 ```
-
-> Note: Since S3 does not support native append operations, the Lambda function downloads the existing log file, appends the new violation entry, and uploads the updated file back to S3.
-
----
 
 # 🧹 Cleanup Utility
 
