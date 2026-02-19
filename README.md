@@ -156,6 +156,8 @@ MIT License
 
 # 👤 Author
 
-Your Name  
-Cloud & AI Engineering Project  
-Serverless Computer Vision Implementation
+- **NV23155 - Mustafa Zahoor** – Role: *[Your role here]*  
+- **NV23076 - Saud Thani** – Role: *[Your role here]*  
+- **NV23048 - Salman AL Awadhi** – Role: *[Your role here]*  
+- **NV23067 - Majeed Mustafa** – Role: *[Your role here]*  
+- **NV23163 - Ali Younis** – Role: *[Your role here]*
