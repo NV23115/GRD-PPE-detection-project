@@ -1,5 +1,7 @@
 # 🦺 AWS Serverless PPE Detection System
 
+![Python](https://img.shields.io/badge/python-3.10-blue) ![AWS](https://img.shields.io/badge/AWS-cloud-orange) ![Serverless](https://img.shields.io/badge/serverless-yes-green) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 A fully serverless, event-driven Personal Protective Equipment (PPE) detection system built on AWS.
 
 This project uses a Raspberry Pi to capture images and upload them to Amazon S3. Each upload triggers an AWS Lambda function that analyzes the image using Amazon Rekognition’s built-in PPE detection API. If a safety violation is detected (e.g., missing helmet or vest), the system sends a real-time alert via Amazon SNS and logs the violation in a secondary S3 bucket.
@@ -36,44 +38,6 @@ Amazon Rekognition (PPE Detection)
 Amazon SNS (Alert Notification)
      ↓
 Amazon S3 (Violations Bucket - Text Logs)
-```
-
----
-
-# 🧰 AWS Services Used
-
-- Amazon S3
-- AWS Lambda
-- Amazon Rekognition (Built-in PPE Detection)
-- Amazon SNS
-
----
-
-# 📁 Repository Structure
-
-```
-ppe-detection-aws/
-│
-├── raspberry_pi/
-│   └── image_uploader.py
-│
-├── lambda/
-│   ├── handler.py
-│   ├── rekognition_service.py
-│   ├── sns_service.py
-│   ├── s3_service.py
-│   ├── violation_logger.py
-│   └── requirements.txt
-│
-├── cleanup/
-│   └── delete_old_s3_objects.py
-│
-├── docs/
-│   └── architecture.md
-│
-├── .env.example
-├── .gitignore
-└── README.md
 ```
 
 ---
@@ -118,11 +82,7 @@ Confidence: 98.4%
 ---------------------------------------
 ```
 
-Note:
-Since S3 does not support native append operations, the Lambda function:
-1. Downloads the existing log file
-2. Appends new violation entry
-3. Uploads the updated file back to S3
+> Note: Since S3 does not support native append operations, the Lambda function downloads the existing log file, appends the new violation entry, and uploads the updated file back to S3.
 
 ---
 
