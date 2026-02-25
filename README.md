@@ -176,3 +176,6 @@ The system analyzes uploaded images using Amazon Rekognition to identify whether
 - **NV23048 - Salman AL Awadhi** – Role: *Model Presenter*  
 - **NV23067 - Majeed Mustafa** – Role: *Documentation*  
 - **NV23163 - Ali Younis** – Role: *Presentation*
+
+🚀 **Live Website:**  
+👉 [Click Here to View the PPE Detection System](https://NV23115.github.io/GRD-PPE-detection-project/)
