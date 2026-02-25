@@ -12,7 +12,7 @@ This document lists **real, documented incidents** where lack of proper Personal
 **Outcome:** 7 workers died from severe burns.  
 **Investigated by:** U.S. Chemical Safety Board (CSB)
 
-![Tesoro Refinery Anacortes](https://upload.wikimedia.org/wikipedia/commons/3/3a/Tesoro_Anacortes_Refinery.jpg)
+![Tesoro Refinery Anacortes](https://th.bing.com/th/id/R.bc59fa49780c8d9ae41249740677c33c?rik=5tNziztl%2bS4YyA&pid=ImgRaw&r=0)
 
 ---
 
@@ -24,7 +24,7 @@ This document lists **real, documented incidents** where lack of proper Personal
 **Outcome:** 4 workers died from toxic inhalation.  
 **Investigated by:** U.S. Chemical Safety Board (CSB)
 
-![DuPont La Porte Facility](https://upload.wikimedia.org/wikipedia/commons/5/5c/DuPont_LaPorte_Facility.jpg)
+![DuPont La Porte Facility](https://cdn.abcotvs.com/dip/images/13186794_042523-ktrk-ewn-5am-dupont-chemical-leak-irios-vid.jpg?w=1600)
 
 ---
 
@@ -36,7 +36,7 @@ This document lists **real, documented incidents** where lack of proper Personal
 **Outcome:** 5 workers died from smoke inhalation.  
 **Investigated by:** OSHA
 
-![Cabin Creek Hydroelectric Plant](https://upload.wikimedia.org/wikipedia/commons/4/4c/Cabin_Creek_Georgetown_CO.jpg)
+![Cabin Creek Hydroelectric Plant](https://media.newswest9.com/assets/WFAA/images/592ba802-21a1-4d02-983d-335d6a5ce40b/592ba802-21a1-4d02-983d-335d6a5ce40b_1920x1080.jpg)
 
 ---
 
@@ -48,7 +48,7 @@ This document lists **real, documented incidents** where lack of proper Personal
 **Outcome:** 4 miners drowned.  
 **Investigated by:** UK Health and Safety Executive (HSE)
 
-![Gleision Colliery](https://upload.wikimedia.org/wikipedia/commons/2/21/Gleision_Colliery.jpg)
+![Gleision Colliery](https://ichef.bbci.co.uk/news/976/cpsprodpb/C6C1/production/_104618805_gettyimages-93115152.jpg)
 
 ---
 
@@ -60,7 +60,7 @@ This document lists **real, documented incidents** where lack of proper Personal
 **Outcome:** 3 workers died, multiple injured.  
 **Investigated by:** U.S. Chemical Safety Board (CSB)
 
-![Offshore Oil Platform](https://upload.wikimedia.org/wikipedia/commons/6/6f/Oil_platform_in_Gulf_of_Mexico.jpg)
+![Offshore Oil Platform](https://wpcluster.dctdigital.com/energyvoice/wp-content/uploads/sites/4/2013/11/rig-boom-2.jpg)
 
 ---
 
@@ -72,7 +72,7 @@ This document lists **real, documented incidents** where lack of proper Personal
 **Outcome:** 2 workers died, others injured.  
 **Investigated by:** U.S. Chemical Safety Board (CSB)
 
-![Industrial Dust Explosion Example](https://upload.wikimedia.org/wikipedia/commons/8/86/Dust_explosion_demo.jpg)
+![Industrial Dust Explosion Example](https://th.bing.com/th/id/R.1fbf2f64271cb86eb172c33197a91058?rik=zwSQCkYgYhXQZA&pid=ImgRaw&r=0)
 
 ---
 
