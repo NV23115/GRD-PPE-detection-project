@@ -1,14 +1,59 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
     text-align: center;
-    padding-top: 50px;
 }
 
-h1 {
-    color: #333;
+header {
+    background-color: #1f3c88;
+    color: white;
+    padding: 20px;
 }
 
-p {
-    color: #555;
+section {
+    padding: 30px;
+}
+
+.about, .features, .demo {
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1f3c88;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1f3c88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #162d66;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #1f3c88;
+    color: white;
 }
