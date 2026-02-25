@@ -151,8 +151,8 @@ MIT License
 
 # 👤 Authors
 
-- **NV23155 - Mustafa Zahoor** – Role: *[Your role here]*  
-- **NV23076 - Saud Thani** – Role: *[Your role here]*  
-- **NV23048 - Salman AL Awadhi** – Role: *[Your role here]*  
-- **NV23067 - Majeed Mustafa** – Role: *[Your role here]*  
-- **NV23163 - Ali Younis** – Role: *[Your role here]*
+- **NV23155 - Mustafa Zahoor** – Role: *Development*  
+- **NV23076 - Saud Thani** – Role: *Team  leader*  
+- **NV23048 - Salman AL Awadhi** – Role: *Model Presenter*  
+- **NV23067 - Majeed Mustafa** – Role: *Documentation*  
+- **NV23163 - Ali Younis** – Role: *Presentation*
