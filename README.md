@@ -148,6 +148,26 @@ Required AWS resources:
 MIT License
 
 ---
+# Success Criteria:
+-PPE Detection Accuracy
+The system achieves at least 70% detection accuracy when identifying whether required PPE is present or missing in test images.
+-Automated Alert Notification
+When a PPE violation is detected, an email alert is successfully sent via Amazon SNS within 10 seconds of image processing.
+-Secure Storage of Images and Logs
+100% of processed images and detection logs are stored in the Amazon S3 bucket, with access restricted to authorized users (e.g., project advisor only).
+---
+# MVP:
+-Video Capture and Frame Processing
+The system captures video input and extracts image frames for PPE compliance analysis.
+-High-Speed Image Transfer with Reliable Accuracy
+Captured images are transferred efficiently to the cloud while maintaining detection accuracy above the defined threshold.
+-Automated Email Alerts via AWS SNS
+When a PPE violation is detected, the system automatically sends an email notification to the contractor using Amazon SNS.
+-Secure Storage of Images and Logs in Amazon S3
+All captured images and detection logs are securely stored in an Amazon S3 bucket with controlled access permissions.
+-PPE Detection Using AWS Rekognition
+The system analyzes uploaded images using Amazon Rekognition to identify whether required personal protective equipment (e.g., helmets, safety vests) is present.
+---
 
 # 👤 Authors
 
