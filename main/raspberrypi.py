@@ -13,15 +13,18 @@ UPLOAD_INTERVAL = 5
 CONFIDENCE = 80
 VIOLATION_DURATION = 3  # seconds before confirming violation
 
-rekognition = boto3.client('rekognition')
-s3 = boto3.client('s3')
+rekognition = boto3.client(
+    'rekognition',
+    region_name='us-east-1'
+)
+s3 = boto3.client('s3', region_name='us-east-1')
 
 # ===============================
 # CAMERA SETUP
 # ===============================
 cap = cv2.VideoCapture(0)
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
 
 if not cap.isOpened():
     print("Camera not accessible")
